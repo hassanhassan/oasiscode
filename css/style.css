@@ -636,7 +636,7 @@ footer p{color:#eeeeee;font-size:14px;}
 
 @media only screen and (min-width:992px)
 {
-.navbar-fixed-top:not(.stickyNav):not(.dark-nav) .nav_menu_grid .nav-item a.nav-link{color:#ffffff !important;}
+.navbar-fixed-top:not(.stickyNav):not(.dark-nav) .nav_menu_grid .nav-item a.nav-link{color:#ffffff;}
 .get_in_touch_section .w-75{position: absolute;top: -308px;left: 0px;right: 0px;background-position:center center;}
 .get_in_touch_section {position: relative;}
 .footer{margin-top: 300px;}
