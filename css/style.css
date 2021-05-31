@@ -1,4 +1,4 @@
-
+html { scroll-behavior: smooth;}
 
 .sticky-login-show {display: none;}
 .navbar-fixed-top.stickyNav .sticky-login-show { display: block;}

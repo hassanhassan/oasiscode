@@ -21,7 +21,6 @@ event.preventDefault();
 });
 });
 
-
 /* Counter Carousel Slider */
 $("#counter-slider").owlCarousel({
 items : 5,
