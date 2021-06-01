@@ -489,6 +489,12 @@ ul{list-style-type:none;}
 /*Home portfolio section*/
 .portfolio_section{}
 
+.portfolio_title{
+    color:#2f2f2f;
+}
+.portfolio_title:hover{
+    color:#ffa300;
+}
 
 .p_tags{}
 .p_tags a{color: #4c4c4c;background-color: #e7e7e7;border-radius: 100px;font-size: 13px;padding: 10px 18px 5px;display: inline-block;margin-bottom: 6px;margin-right: 5px;text-transform:uppercase;}
