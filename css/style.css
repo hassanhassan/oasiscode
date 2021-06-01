@@ -507,6 +507,7 @@ ul{list-style-type:none;}
 
 
 /* Team Section */
+.team_display {display:flex}
 .team_section {position:relative;}
 .team_section::before {content:"";position:absolute;background: url(../img/esteem-bg.jpg) no-repeat;right: 0px;top: 0px;width: 307px;height: 100%;background-position: right top;}
 .team_section .section_title,
@@ -694,7 +695,7 @@ border-radius: 10px;}
 {
 .navbar-fixed-top:not(.stickyNav) .navbar-right {background-color: #f7f7f7;border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
 .footer {padding-top: 50px;}
-.blog_content_height{max-height: 140px;min-height: 140px;overflow:hidden;}
+.blog_content_height{;min-height: 140px;overflow:hidden;height:330px;}
 
 
 
