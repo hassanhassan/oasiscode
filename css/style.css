@@ -567,7 +567,13 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
 /*Footer*/
 
 .get_in_touch_section{}
-.get_in_touch_section .w-75{background: url(../img/get-in-touch-bg.png) no-repeat;background-size: auto;background-size: contain;background-position: center left;}
+.get_in_touch_section .w-75{
+    background-color: #ffa300; 
+    border-radius: 25px;
+    background-size: auto;
+    background-size: contain;
+    background-position: center left;
+}
 
 
 
