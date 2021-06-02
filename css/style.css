@@ -586,7 +586,8 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
 
 /*Footer*/
 
-.get_in_touch_section{}
+.get_in_touch_section{
+}
 .get_in_touch_section .w-75{
     background-color: #ffa300; 
     border-radius: 25px;
