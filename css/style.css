@@ -612,6 +612,12 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
     color: white;
 }
 
+.modal.popup .modal-dialog {
+    position:fixed;
+    bottom:0;
+    right:10px;
+    width: 250px !important;
+}
 
 
 

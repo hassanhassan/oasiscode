@@ -1,3 +1,8 @@
+
+setTimeout(function() {
+    $('#popupModal').modal();
+    }, 5000);
+
 $(document).ready(function(){
 
 /* Page Sticky Navigation */
