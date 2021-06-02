@@ -595,25 +595,22 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
     background-size: contain;
     background-position: center left;
 }
-.contact_form{
-    margin-left:15px;
-    column-span: all;
-}
-.contact_form input{
-    margin-bottom:7px;
-}
-.form_button{
-    text-transform:uppercase;
-    margin-top: 2rem;
-    margin-left:auto;
-    margin-right:auto;
-}
-.form_button:hover{
-    background-color:#2f2f2f !important;
-    color:white !important;
+
+.modal-title {
+    font-size: 3rem;
 }
 
+.modal-content {
+    background-color: #ffa300;
+    border-radius: 25px;
+    border-color: #ffa300;
+    color: white;
+}
 
+.modal-btn:hover {
+    background-color:#4c4c4c !important;
+    color: white;
+}
 
 
 

@@ -155,7 +155,7 @@
 <h2 class="fs-mob-20 fs-35 text-white fw-bold">Have a project in mind?</h2>
 </div>
 <div class="col-lg-5 col-md-5 col-sm-4 text-left text-md-right text-uppercase btn_1">
-<a href="contact.html" class="btn bg-white color2 fw-semiBold fs-14 rounded-full px-4 px-lg-5 py-3">Get in touch</a>
+<button class="btn bg-white color2 fw-semiBold fs-14 rounded-full px-4 px-lg-5 py-3" data-toggle="modal" data-target="#contactModal">Get in touch</button>
 </div>
 </div>
 </div>		
@@ -163,6 +163,33 @@
 	</div>
 </div>
 
+<!--Modal for contact form-->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="border-color:#ffa300">
+      <div class="modal-header" style="border-color:#ffa300">
+        <h5 class="modal-title" id="contactModalLabel"><img src="img/comment-bar.png" alt="Comment Bar" class="img-responsive" />	<br>Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+			<form>
+      	<div class="modal-body" style="border-color:#ffa300">
+					<label for="name">Name: </label><br>
+					<input type="text" name="name" id="name"/><br>
+					<label for="email">Email: </label><br>
+					<input type="email" name="email" id="email" /><br>
+					<label for="message">Message:</label><br>
+					<textarea name="message" id="message" rows="2" style="width:90%"></textarea>
+      	</div>
+				<div class="modal-footer" style="border-color:#ffa300">
+					<button type="button" class="modal-btn btn bg-white color2 fw-semiBold fs-14 rounded-full px-4 px-lg-5 py-3" data-dismiss="modal">Close</button>
+					<button type="button" class="modal-btn btn bg-white color2 fw-semiBold fs-14 rounded-full px-4 px-lg-5 py-3">Submit</button>
+				</div>
+			</form>
+    </div>
+  </div>
+</div>
 
 
 	<div class="container">
