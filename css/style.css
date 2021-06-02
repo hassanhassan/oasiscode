@@ -574,6 +574,16 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
     height:auto;
 }
 
+.team_member{
+    margin:auto;
+    width:80%;
+    max-width:750px;
+}
+
+.member_container{
+    width:100%;
+}
+
 /*Footer*/
 
 .get_in_touch_section{}
@@ -715,16 +725,14 @@ border-radius: 10px;}
 .get_in_touch_section {position: relative;top: -50px;}
 .footer {padding-top: 0px;margin-top: 140px;}
  
- 
 }
 
 @media only screen and (min-width:768px)
 {
 .navbar-fixed-top:not(.stickyNav) .navbar-right {background-color: #f7f7f7;border-top-left-radius: 10px;border-bottom-left-radius: 10px;}
 .footer {padding-top: 50px;}
-.blog_content_height{;min-height: 140px;overflow:hidden;height:290px;}
-
-
+.blog_content_height{;min-height: 140px;overflow:hidden;}
+.team_member {display:flex !important}
 
 }
 
