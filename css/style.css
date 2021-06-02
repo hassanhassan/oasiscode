@@ -613,10 +613,6 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
     color:white !important;
 }
 
-.bot-container{
-    margin-top:15rem;
-}
-
 
 
 
@@ -757,7 +753,6 @@ padding: 8px 14px 5px;}
 .footer::before{background-position:top center;}
 .get_in_touch_section {position: relative;top: -50px;}
 .footer {padding-top: 0px;margin-top: 140px;}
-.bot-container {margin-top: 5rem;}
 
 }
 
@@ -813,7 +808,6 @@ padding: 8px 14px 5px;}
 
 @media only screen and (max-width:479px)
 {
-.bot-container {margin-top: 3rem;}
 
 }
 
