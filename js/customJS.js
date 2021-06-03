@@ -69,17 +69,6 @@ const observerL6 = new IntersectionObserver(entries => {
 
 observerL6.observe(document.querySelector('.fade_effect_left6'))
 
-const observerL7 = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInLeft');
-        }
-
-    });
-});
-
-observerL7.observe(document.querySelector('.fade_effect_left7'))
-
 const observerR1 = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(entry.isIntersecting) {
@@ -139,56 +128,6 @@ const observerR6 = new IntersectionObserver(entries => {
 });
 
 observerR6.observe(document.querySelector('.fade_effect_right6'))
-
-const observerR7 = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInRight');
-        }
-    });
-});
-
-observerR7.observe(document.querySelector('.fade_effect_right7'))
-
-const observerD = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInDown');
-        }
-    });
-});
-
-observerD.observe(document.querySelector('.fade_effect_down'))
-
-const observerU1 = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInUp');
-        }
-    });
-});
-
-observerU1.observe(document.querySelector('.fade_effect_up1'))
-
-const observerU2 = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInUp');
-        }
-    });
-});
-
-observerU2.observe(document.querySelector('.fade_effect_up2'))
-
-const observerU3 = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if(entry.isIntersecting) {
-            entry.target.classList.add('fadeInUp');
-        }
-    });
-});
-
-observerU3.observe(document.querySelector('.fade_effect_up3'))
 
 
 $(document).ready(function(){
