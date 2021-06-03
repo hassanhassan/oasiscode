@@ -1,7 +1,7 @@
 
-// setTimeout(function() {
-//     $('#popupModal').modal();
-//     }, 5000);
+setTimeout(function() {
+    $('#popupModal').modal();
+    }, 5000);
 
 const observerL1 = new IntersectionObserver(entries => {
     entries.forEach(entry => {
