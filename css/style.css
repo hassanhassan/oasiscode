@@ -613,6 +613,13 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
     background-position: center left;
 }
 
+.contact_input {
+    width:90%;
+    border-radius:25px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
 .modal-title {
     font-size: 3rem;
 }
