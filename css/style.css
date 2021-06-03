@@ -624,7 +624,7 @@ background: #aaa;width: 15px;height: 15px;display: block;border-radius: 100px;}
 }
 
 .modal-open {
-    overflow-y: auto;
+    overflow-y: auto !important;
 }
 
 
@@ -738,13 +738,6 @@ border-radius: 10px;}
 .footer {padding-top: 50px;}
 .blog_content_height{;min-height: 140px;overflow:hidden;}
 .team_member {display:flex !important}
-
-#fullHeightModalRight{
-    top:66px;
-    left: auto;
-    bottom: auto;
-    overflow:visible;
-}
 
 }
 
