@@ -1,7 +1,195 @@
 
-setTimeout(function() {
-    $('#popupModal').modal();
-    }, 5000);
+// setTimeout(function() {
+//     $('#popupModal').modal();
+//     }, 5000);
+
+const observerL1 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL1.observe(document.querySelector('.fade_effect_left1'))
+
+const observerL2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL2.observe(document.querySelector('.fade_effect_left2'))
+
+const observerL3 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL3.observe(document.querySelector('.fade_effect_left3'))
+
+const observerL4 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL4.observe(document.querySelector('.fade_effect_left4'))
+
+const observerL5 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL5.observe(document.querySelector('.fade_effect_left5'))
+
+const observerL6 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL6.observe(document.querySelector('.fade_effect_left6'))
+
+const observerL7 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInLeft');
+        }
+
+    });
+});
+
+observerL7.observe(document.querySelector('.fade_effect_left7'))
+
+const observerR1 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR1.observe(document.querySelector('.fade_effect_right1'))
+
+const observerR2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR2.observe(document.querySelector('.fade_effect_right2'))
+
+const observerR3 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR3.observe(document.querySelector('.fade_effect_right3'))
+
+const observerR4 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR4.observe(document.querySelector('.fade_effect_right4'))
+
+const observerR5 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR5.observe(document.querySelector('.fade_effect_right5'))
+
+const observerR6 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR6.observe(document.querySelector('.fade_effect_right6'))
+
+const observerR7 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInRight');
+        }
+    });
+});
+
+observerR7.observe(document.querySelector('.fade_effect_right7'))
+
+const observerD = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInDown');
+        }
+    });
+});
+
+observerD.observe(document.querySelector('.fade_effect_down'))
+
+const observerU1 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInUp');
+        }
+    });
+});
+
+observerU1.observe(document.querySelector('.fade_effect_up1'))
+
+const observerU2 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInUp');
+        }
+    });
+});
+
+observerU2.observe(document.querySelector('.fade_effect_up2'))
+
+const observerU3 = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('fadeInUp');
+        }
+    });
+});
+
+observerU3.observe(document.querySelector('.fade_effect_up3'))
+
 
 $(document).ready(function(){
 

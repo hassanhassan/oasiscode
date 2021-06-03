@@ -640,16 +640,6 @@ footer a:hover{color:#ffa300;}
 footer .add i{color:#ffa300;}
 footer p{color:#eeeeee;font-size:14px;}
 
-.fading {
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-
-.fading.appear {
-    opacity: 1;
-}
-
-
 
 /* Custom Media Queries */
 @media only screen and (min-width:2200px)
